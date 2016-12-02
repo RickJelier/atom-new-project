@@ -1,14 +1,14 @@
 {
   "name": "atom-new-project",
   "main": "./lib/atom-new-project",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Create a new project with instances of for example Laravel, Symfony or CodeIgniter",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-new-project:toggle"
+    "atom-workspace": "new-project:toggle"
   },
-  "repository": "https://github.com/atom/atom-new-project",
+  "repository": "https://github.com/RickJelier/atom-new-project",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
