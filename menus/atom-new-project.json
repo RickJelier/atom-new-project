@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-new-project",
+        "command": "atom-new-project:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-new-project",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-new-project:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
